@@ -8,4 +8,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? Could potentially use a cloud file sharing platform like Dropbox. However, the hard part will be recognizing the changes to the files especially if working in teams and more than one person working on the same file. Being able to communicate the changes so no mistakes are made will be very difficult. 
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? I may want to make changes in a separate branch rather than master when I’m testing new features. It will allow me to test these features without breaking the code in master. I’d also do this when I’m working with others as I hear it makes collaboration easier and with less errors.
+
  
