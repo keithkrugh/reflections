@@ -4,15 +4,15 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers? the staging area is an in between area between the working directory and the repository. It contains files that have been chosen to be committed but have not been completely committed yet. The value of this is to allow you the flexibility to choose the exact files you’d like to commit. And because they have not been committed completely there is flexibility to remove them from the staging area if you desire.
 
 How can you use the staging area to make sure you have one commit per logical
-change?
+change? Each time I make a change I can place the change in the staging area. After I’ve made all the changes I can then move all the staged changes to commits.
 
 What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+organized? How would branches help? A situation where I want to change something in my code to experiment with a new feature. Branches allow to create an off shoot of my master code to that experiment without changing my master code. I can go back and forth between the two to see the differences easily without disrupting my original code. 
 
-How do the diagrams help you visualize the branch structure?
+How do the diagrams help you visualize the branch structure? It allows me to visually see a time line/ road map of the branches. For me, that works well as I am a visual learner.
 
 What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+the diagram the way we do? The result of merging two branches together is to combine the code from each into one branch. The digram represents a timeline of sorts of when the two branches were created as well as where they merged.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+manually? Git’s automatic merging can save time. Cons from what I understand is that it’s not perfect and it’s very important to double check the the code is working after performing a merge.
